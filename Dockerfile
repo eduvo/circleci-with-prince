@@ -1,4 +1,4 @@
-# the Ubuntu version of base image is 20.04.3 LTS
+# the Ubuntu version of base image is 22.04.1 LTS
 # https://circleci.com/developer/images/image/cimg/ruby
 FROM cimg/ruby:3.2.2-browsers
 
