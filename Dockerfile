@@ -1,6 +1,4 @@
-# the Ubuntu version of base image is 22.04.1 LTS
-# https://circleci.com/developer/images/image/cimg/ruby
-FROM cimg/ruby:3.2.2-browsers
+FROM --platform=linux/amd64 cimg/ruby:3.3.1-browsers
 
 USER root
 RUN apt-get update && apt-get install -y \
